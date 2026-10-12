@@ -1,5 +1,7 @@
 .history-header,
 ion-list,
+ion-searchbar,
+ion-segment,
 .state-message {
   max-width: 40rem;
   margin: 1rem auto;
@@ -10,6 +12,15 @@ ion-list,
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+
+  p {
+    margin: 0.25rem 0;
+  }
+}
+
+ion-searchbar,
+ion-segment {
+  margin-bottom: 0.5rem;
 }
 
 .state-message {
